@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerija slika</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    .gallery {
+      display: grid;
+      gap: 50px;
+      margin: 10px;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .gallery-item {
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      max-height: 100px;
+      object-fit: cover;
+      background-color: #8db6cd;
+    }
+
+    .gallery-item-title {
+      padding: 12px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+      background-color: #f0f0f0;
+    }
+
+    .gallery-heading {
+      text-align: left;
+      font-size: 24px;
+      font-weight: bold;
+      margin: 16px;
+    }
+
+    .gallery-paragraph {
+      padding: 16px;
+      text-align: justify;
+      font-size: 14px;
+      color: #333;
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 950px) {
+      .gallery {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media screen and (min-width: 951px) {
+      .gallery {
+        grid-template-columns: repeat(5, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2 class="gallery-heading">Gallery Heading</h2>
+
+ <div class="gallery">
+
+  <div class="gallery-item">
+    <img src="placeholder-image.png" alt="Slika 1">
+    <div class="gallery-item-title">Image Title</div>
+  </div>
+<div class="gallery-item">
+    <img src="placeholder-image.png" alt="Slika 1">
+    <div class="gallery-item-title">Image Title</div>
+  </div>
+   <div class="gallery-item">
+    <img src="placeholder-image.png" alt="Slika 1">
+    <div class="gallery-item-title">Image Title</div>
+  </div>
+ <div class="gallery-item">
+    <img src="placeholder-image.png" alt="Slika 1">
+    <div class="gallery-item-title">Image Title</div>
+  </div>
+<div class="gallery-item">
+    <img src="placeholder-image.png" alt="Slika 1">
+    <div class="gallery-item-title">Image Title</div>
+  </div>
+<div class="gallery-item">
+    <img src="placeholder-image.png" alt="Slika 1">
+    <div class="gallery-item-title">Image Title</div>
+  </div>
+   <div class="gallery-item">
+    <img src="placeholder-image.png" alt="Slika 1">
+    <div class="gallery-item-title">Image Title</div>
+  </div>
+ <div class="gallery-item">
+    <img src="placeholder-image.png" alt="Slika 1">
+    <div class="gallery-item-title">Image Title</div>
+  </div>
+<div class="gallery-item">
+    <img src="placeholder-image.png" alt="Slika 1">
+    <div class="gallery-item-title">Image Title</div>
+  </div>
+   <div class="gallery-item">
+    <img src="placeholder-image.png" alt="Slika 1">
+    <div class="gallery-item-title">Image Title</div>
+  </div>
+ 
+</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan libero non sapien hendrerit, non pellentesque orci cursus. Vestibulum gravida quam non ex scelerisque, id consectetur justo egestas. Nullam eget neque eget felis ullamcorper facilisis a ut mi. Nunc gravida risus quis tellus varius, a scelerisque velit fermentum. Aliquam venenatis nunc sit amet tellus bibendum, eu posuere justo efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan libero non sapien hendrerit, non pellentesque orci cursus. Vestibulum gravida quam non ex scelerisque, id consectetur justo egestas. Nullam eget neque eget felis ullamcorper facilisis a ut mi. Nunc gravida risus quis tellus varius, a scelerisque velit fermentum. Aliquam venenatis nunc sit amet tellus bibendum, eu posuere justo efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan libero non sapien hendrerit, non pellentesque orci cursus. Vestibulum gravida quam non ex scelerisque, id consectetur justo egestas. Nullam eget neque eget felis ullamcorper facilisis a ut mi. Nunc gravida risus quis tellus varius, a scelerisque velit fermentum. Aliquam venenatis nunc sit amet tellus bibendum, eu posuere justo efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan libero non sapien hendrerit, non pellentesque orci cursus. Vestibulum gravida quam non ex scelerisque, id consectetur justo egestas. Nullam eget neque eget felis ullamcorper facilisis a ut mi. Nunc gravida risus quis tellus varius, a scelerisque velit fermentum. Aliquam venenatis nunc sit amet tellus bibendum, eu posuere justo efficitur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan libero non sapien hendrerit, non pellentesque orci cursus. Vestibulum gravida quam non ex scelerisque, id consectetur justo egestas. Nullam eget neque eget felis ullamcorper facilisis a ut mi. Nunc gravida risus quis tellus varius, a scelerisque velit fermentum. Aliquam venenatis nunc sit amet tellus bibendum, eu posuere justo efficitur.</p>
+</body>
+
+</html>
